@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.App-header {
+  min-height: 100vh;
+  background-image: url("./port-background.bmp");
+  background-size: cover;
+  filter: brightness(0.2);
+}
+
+.icon-section {
+  width: 35vw;
+  height: 40vh;
+  color: white;
+  margin-top: -96vh;
+  margin-left: 1.5vw;
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  /* border: solid;
+  border-color: red; */
+}
+
+.linkedin,
+.github,
+.email,
+.resume {
+  height: 25%;
+  width: 20%;
+  overflow: hidden;
+  /* border: solid;
+  border-color: green; */
+}
+
+.linkedin:hover,
+.github:hover,
+.email:hover,
+.resume:hover {
+  width: 100%;
+}
+
+i {
+  width: 95%;
+  font-size: 80px;
+  cursor: pointer;
+  /* border: dashed;
+  border-color: orange; */
+}
+
+h3 {
+  width: 70%;
+  height: 100%;
+  /* border: dashed;
+  border-color: blue; */
+  float: right;
+  display: flex;
+  align-items: center;
+  font-family: "Permanent Marker", cursive;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+h3:active {
+  font-size: 70px;
+}
+
+.fa-linkedin:hover {
+  color: rgb(55, 55, 182);
+}
+
+.fa-github:hover {
+  color: rgb(148, 148, 148);
+}
+.fa-paper-plane:hover {
+  color: rgb(0, 128, 248);
+}
+.fa-file:hover {
+  color: rgb(255, 97, 195);
+}
+
+.title-section {
+  width: 40vw;
+  margin-top: -96vh;
+  margin-left: 55vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  /* border: solid;
+  border-color: red; */
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h1 {
+  font-size: 100px;
+  margin-top: -30px;
+}
+
+h4 {
+  font-size: 50px;
+  font-style: italic;
+  margin-top: -10px;
+  font-family: "Permanent Marker", cursive;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+  color: aqua;
+}
+
+.skills-section {
+  width: 50vw;
+  height: 50vh;
+  margin-top: -60vh;
+  margin-left: 45vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  color: white;
+  /* border: solid;
+  border-color: red;*/
+  color: red;
+}
+
+.top-skills {
+  margin-right: 90px;
+}
+
+img {
+  /* border: dashed; */
+  height: 74%;
+  width: 44%;
+}
+
+/* .skill-list {
+  width: 50vw;
+  height: 44vh;
+  margin-top: -57vh;
+  margin-left: 18vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: white;
+  /* border: solid;
+  border-color: red;*/
+/* color: white; */
+/* } */
+
+/* h6 {
+  font-size: 30px;
+  font-style: italic;
+  margin-top: -10px;
+  font-family: "Permanent Marker", cursive;
+} */
+
+/* .html {
+  color: rgb(211, 93, 24);
+}
+
+.css {
+  color: rgb(0, 110, 255);
+}
+
+.mongoDB {
+  color: rgb(80, 45, 45);
+}
+
+.React {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightblue;
+}
+
+.Redux {
+  margin: 0;
+  color: purple;
+}
+
+.NodeJS {
+  color: rgb(133, 204, 26);
+}
+
+.PostgreSQL {
+  color: rgb(70, 110, 161);
+}
+
+.Javascript {
+  color: rgb(216, 216, 27);
+} */
