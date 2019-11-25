@@ -28,21 +28,14 @@
   height: 25%;
   width: 100%;
   overflow: hidden;
-}
-
-.linkedin:hover,
-.github:hover,
-.email:hover,
-.resume:hover {
-  width: 100%;
+  color: white;
+  margin-top: 12px;
 }
 
 i {
   width: 95%;
   font-size: 40px;
   cursor: pointer;
-  /* border: dashed;
-  border-color: orange; */
 }
 
 .fa-linkedin:hover {
@@ -99,7 +92,7 @@ h5 {
   width: 50vw;
   height: 50vh;
   margin-top: -52vh;
-  margin-left: 45vw;
+  margin-left: 39vw;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -201,7 +194,7 @@ h6 {
 .about-section p {
   text-align: left;
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   font-family: "Fugaz One", cursive;
 }
@@ -247,6 +240,7 @@ h6 {
   color: aqua;
   overflow-x: hidden;
   overflow-y: scroll;
+  font-family: "Fugaz One", cursive;
 }
 
 .Group {
@@ -261,6 +255,52 @@ h6 {
 .Group img {
   width: 45vh;
   height: auto;
+}
+
+.listed-uses {
+  width: 24vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+}
+
+.projects-section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: circle;
+}
+
+.projects-section li {
+  margin-left: 18px;
+}
+
+.summary-buttons {
+  width: 17vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.button-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-links a {
+  width: 45%;
+}
+
+.button-links button {
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 255, 255, 0.815);
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 .Personal {

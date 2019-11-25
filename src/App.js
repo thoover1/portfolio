@@ -19,10 +19,20 @@ function App() {
         <h5>thooverdev@gmail.com</h5>
         <h5>210-867-6362</h5>
         <section className="icon-section">
-          <a className="linkedin">
+          <a
+            href="https://www.linkedin.com/in/thomas-hoover-781540195/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="linkedin"
+          >
             <i class="fab fa-linkedin"></i>
           </a>
-          <a className="github">
+          <a
+            href="https://github.com/thoover1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github"
+          >
             <i class="fab fa-github"></i>
           </a>
           <a className="email">
@@ -33,7 +43,7 @@ function App() {
           </a>
         </section>
       </section>
-      <div className="skill-list">
+      {/* <div className="skill-list">
         <h6 className="html">HTML5</h6>
         <h6 className="css">CSS3</h6>
         <h6 className="mongoDB">MongoDB</h6>
@@ -43,7 +53,7 @@ function App() {
         <h6 className="NodeJS">NodeJS</h6>
         <h6 className="PostgreSQL">PostgreSQL</h6>
         <h6 className="Javascript">Javascript</h6>
-      </div>
+      </div> */}
       <section className="skills-section">
         <h4 className="top-skills">Top Skills</h4>
         <img src={skillTree}></img>
@@ -86,12 +96,118 @@ function App() {
         <h4>Projects</h4>
         <section className="Group">
           <img src={CS} alt="/" />
+          <div className="listed-uses">
+            <ul>
+              Skills used:
+              <li>React</li>
+              <li>NodeJS</li>
+              <li>MongoDB</li>
+              <li>ExpressJS</li>
+              <li>Axios</li>
+              <li>SASS</li>
+            </ul>
+            <div className="summary-buttons">
+              <div className="summary">
+                <h3>Summary of Project:</h3>
+                <p>Group Project is in current brainstorming mode!</p>
+              </div>
+              <div className="button-links">
+                <a
+                  href="https://dunkingonuts.com/#/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>No URL Yet</button>
+                </a>
+                <a
+                  href="https://dunkingonuts.com/#/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>TBA</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
         <section className="Personal">
           <img src={PersonalIMG} alt="/" />
+          <div className="listed-uses">
+            <ul>
+              Skills used:
+              <li>React</li>
+              <li>NodeJS</li>
+              <li>PostgreSQL</li>
+              <li>ExpressJS</li>
+              <li>Axios</li>
+              <li>SASS</li>
+            </ul>
+            <div className="summary-buttons">
+              <div className="summary">
+                <h3>Summary of Project:</h3>
+                <p>
+                  As an addition to the actual Dunkin' website, my app (built as
+                  a class project) adds E-commerce capabilities when shopping
+                  Dunkin' products. Additional skills used include, Redux,
+                  Google Cloud Platform, AWS, Stripe, Twillio, NodeMailer,
+                  DigitalOcean, Nginx, and npm.
+                </p>
+              </div>
+              <div className="button-links">
+                <a
+                  href="https://dunkingonuts.com/#/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Visit Site</button>
+                </a>
+                <a
+                  href="https://github.com/thoover1/dunkin-gonuts"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
         <section className="NoDB">
           <img src={WWW} alt="/" />
+          <div className="listed-uses">
+            <ul>
+              Skills used:
+              <li>React</li>
+              <li>NodeJS</li>
+              <li>ExpressJS</li>
+              <li>Axios</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+            <div className="summary-buttons">
+              <div className="summary">
+                <h3>Summary of Project:</h3>
+                <p>
+                  Created a blog post website (criteria was to use no database)
+                  where I created personalized week-to-week fantasy football
+                  advice displaying the top 10 pickups from the waiver wire each
+                  week of the NFL regular season.
+                </p>
+              </div>
+              <div className="button-links">
+                <a target="_blank" rel="noopener noreferrer">
+                  <button>Not Hosted</button>
+                </a>
+                <a
+                  href="https://github.com/thoover1/NoDB_Project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>View Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
     </div>
