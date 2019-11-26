@@ -8,7 +8,7 @@
   min-height: 100vh;
   background-image: url("./port-background.bmp");
   background-size: cover;
-  filter: brightness(0.2);
+  filter: brightness(0.08);
 }
 
 .icon-section {
@@ -23,7 +23,7 @@
 
 .linkedin,
 .github,
-.email,
+.mailto,
 .resume {
   height: 25%;
   width: 100%;
@@ -91,8 +91,8 @@ h5 {
 .skills-section {
   width: 11vw;
   height: 16vh;
-  margin-top: -73vh;
-  margin-left: 65vw;
+  margin-top: -24vh;
+  margin-left: 70vw;
   position: fixed;
   /* display: flex;
   flex-direction: column;
@@ -109,8 +109,8 @@ h5 {
 
 img {
   /* border: dashed; */
-  height: 150px;
-  width: 180px;
+  height: 180px;
+  width: 225px;
 }
 
 .skill-list {
@@ -173,27 +173,22 @@ h6 {
 }
 
 .about-section {
-  width: 35vw;
-  height: 40vh;
-  margin-top: -45vh;
-  margin-left: 60vw;
+  width: 38vw;
+  height: 20vh;
+  margin-top: -50vh;
+  margin-left: 57vw;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
-  /* border: solid;
-  border-color: red; */
+  align-items: flex-start;
   color: aqua;
 }
 
-.about-section h4 {
-  margin-left: 30px;
-}
-
 .about-section p {
-  text-align: right;
-  font-size: 24px;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 18px;
   color: rgb(241, 241, 241);
   font-family: "Merriweather", serif;
 }
@@ -301,6 +296,8 @@ h6 {
   font-weight: bolder;
   border-radius: 7px;
   cursor: pointer;
+  border: solid;
+  border-color: rgba(0, 255, 255, 0.815);
 }
 
 .Personal {
@@ -329,4 +326,9 @@ h6 {
 .NoDB img {
   width: 45vh;
   height: auto;
+}
+
+.summary p {
+  line-height: 1.1;
+  text-align: justify;
 }

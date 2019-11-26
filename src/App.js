@@ -4,6 +4,7 @@ import skillTree from "./assets/honeycomb3.png";
 import CS from "./assets/comingsoon.jpg";
 import PersonalIMG from "./assets/PersonalIMG.jpg";
 import WWW from "./assets/WWW.jpg";
+import Resume from "./assets/Hoover_Resume.pdf";
 // import Project1 from "./Components/Project1";
 
 function App() {
@@ -35,10 +36,11 @@ function App() {
           >
             <i class="fab fa-github"></i>
           </a>
-          <a className="email">
-            <i class="far fa-paper-plane"></i>
+          <a className="mailto" href="mailto:thooverdev@gmail.com">
+            {/* <i class="far fa-paper-plane"></i> */}
+            <i class="far fa-envelope"></i>
           </a>
-          <a className="resume">
+          <a href={Resume} target="_blank" className="resume">
             <i class="far fa-file"></i>
           </a>
         </section>
@@ -61,18 +63,13 @@ function App() {
       <section className="about-section">
         <h4 className="about">About Me</h4>
         <p>
-          Former PhD Student In Nutrition Turned Proud Coding Noob @
-          DevMountain.
+          I am a former Ph.D. Student in Nutrition Sciences turned proud coding
+          noob at DevMountain. My friends say that I am a man of few words...
+          unless I have questions, then not so much. I am a hard worker and a
+          hard relaxer. I love coding(duh!), all things marvel, video games,
+          football, burgers, beers, dogs, coffee, science, and DIY home
+          projects. Most important, I am a Texas boy at heart. GO COWBOYS!
         </p>
-        <p>Man Of Few Words... Unless I Have Questions, Then Not So Much.</p>
-        <p>Hard Worker. Hard Relaxer.</p>
-        <p className="long-about">
-          <p className="long-about-a">
-            Coding(duh.), All Things Marvel, Video Games, Football, Burgers,
-            Beers, Dogs, Coffee, Science, DIY Home Projects.
-          </p>
-        </p>
-        <p>Texas boy at heart. GO COWBOYS!</p>
         {/* <div className="about-icons">
           <div className="about-icons-a">
             <i class="fas fa-film"></i>
@@ -108,7 +105,11 @@ function App() {
             <div className="summary-buttons">
               <div className="summary">
                 <h3>Summary of Project:</h3>
-                <p>Group Project is in current brainstorming mode!</p>
+                <p>
+                  Group Project is in current brainstorming mode! Code will be
+                  available as the project progresses. Expected compoletion
+                  date: 12/20/2019.
+                </p>
               </div>
               <div className="button-links">
                 <a
