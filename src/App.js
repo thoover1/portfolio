@@ -55,7 +55,7 @@ function App() {
         <h6 className="Javascript">Javascript</h6>
       </div> */}
       <section className="skills-section">
-        <h4 className="top-skills">Top Skills</h4>
+        {/* <h4 className="top-skills">Top Skills</h4> */}
         <img src={skillTree}></img>
       </section>
       <section className="about-section">
@@ -67,7 +67,6 @@ function App() {
         <p>Man Of Few Words... Unless I Have Questions, Then Not So Much.</p>
         <p>Hard Worker. Hard Relaxer.</p>
         <p className="long-about">
-          Interests:
           <p className="long-about-a">
             Coding(duh.), All Things Marvel, Video Games, Football, Burgers,
             Beers, Dogs, Coffee, Science, DIY Home Projects.

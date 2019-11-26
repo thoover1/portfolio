@@ -89,17 +89,17 @@ h5 {
 }
 
 .skills-section {
-  width: 50vw;
-  height: 50vh;
-  margin-top: -52vh;
-  margin-left: 39vw;
+  width: 11vw;
+  height: 16vh;
+  margin-top: -73vh;
+  margin-left: 65vw;
   position: fixed;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-around; */
   /* border: solid;
-  border-color: red;*/
+  border-color: red; */
   color: aqua;
 }
 
@@ -109,8 +109,8 @@ h5 {
 
 img {
   /* border: dashed; */
-  height: 350px;
-  width: 440px;
+  height: 150px;
+  width: 180px;
 }
 
 .skill-list {
@@ -173,15 +173,15 @@ h6 {
 }
 
 .about-section {
-  width: 42vw;
-  height: 35vh;
-  margin-top: -95vh;
-  margin-left: 2vw;
+  width: 35vw;
+  height: 40vh;
+  margin-top: -45vh;
+  margin-left: 60vw;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   /* border: solid;
   border-color: red; */
   color: aqua;
@@ -192,11 +192,10 @@ h6 {
 }
 
 .about-section p {
-  text-align: left;
-  margin-left: 20px;
+  text-align: right;
   font-size: 24px;
-  color: white;
-  font-family: "Fugaz One", cursive;
+  color: rgb(241, 241, 241);
+  font-family: "Merriweather", serif;
 }
 
 .long-about {
@@ -228,19 +227,20 @@ h6 {
 
 .projects-section {
   width: 50vw;
-  height: 45vh;
-  margin-top: -50vh;
+  height: 90vh;
+  margin-top: -95vh;
   margin-left: 3vw;
   position: fixed;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   /* border: solid;
   border-color: red; */
   color: aqua;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  font-family: "Fugaz One", cursive;
+  /* overflow-x: hidden;
+  overflow-y: scroll; */
+  font-family: "Merriweather", serif;
 }
 
 .Group {
@@ -263,7 +263,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   text-align: left;
-  color: white;
+  color: rgb(241, 241, 241);
 }
 
 .projects-section ul {
@@ -295,7 +295,7 @@ h6 {
 
 .button-links button {
   width: 100%;
-  color: white;
+  color: rgb(241, 241, 241);
   background-color: rgba(0, 255, 255, 0.815);
   font-size: larger;
   font-weight: bolder;
