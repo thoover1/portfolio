@@ -332,3 +332,66 @@ h6 {
   line-height: 1.1;
   text-align: justify;
 }
+
+@media (max-width: 1600px) {
+  .icon-section {
+    width: 17vw;
+    height: 23vh;
+    margin-top: 10px;
+    margin-right: -20px;
+  }
+  .linkedin,
+  .github,
+  .mailto,
+  .resume {
+    height: 22%;
+    width: 100%;
+    margin-top: 11px;
+  }
+  i {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    margin-top: 8px;
+    font-size: 25px;
+  }
+  .skills-section {
+    margin-top: -28vh;
+    margin-left: 69vw;
+  }
+  img {
+    height: 160px;
+    width: 200px;
+  }
+  .about-section {
+    height: 18vh;
+  }
+  .about-section p {
+    line-height: 1.1;
+    font-size: 15px;
+  }
+  .projects-section {
+    width: 53vw;
+  }
+  .listed-uses {
+    font-size: 12.5px;
+  }
+
+  .button-links button {
+    background-color: rgba(0, 255, 255, 0.715);
+    font-size: 13px;
+    border-color: rgba(0, 255, 255, 0.815);
+  }
+}
